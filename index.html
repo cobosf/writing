@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+
+<title>Writing | Francisco Cobos</title>
+
+<style>
+
+:root{
+    --paper:#f3efe7;
+    --text:#111;
+    --muted:#6d6d6d;
+    --border:#d9d2c7;
+}
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+html{
+    scroll-behavior:smooth;
+}
+
+body{
+    font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif;
+    background:var(--paper);
+    color:var(--text);
+    line-height:1.7;
+}
+
+a{
+    color:inherit;
+    text-decoration:none;
+}
+
+nav{
+    position:fixed;
+    top:0;
+    width:100%;
+    background:rgba(243,239,231,.92);
+    backdrop-filter:blur(12px);
+    border-bottom:1px solid var(--border);
+    z-index:100;
+}
+
+.nav{
+    width:90%;
+    max-width:1200px;
+    margin:auto;
+    padding:18px 0;
+
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+.logo{
+    font-weight:700;
+}
+
+.menu{
+    display:flex;
+    gap:30px;
+    font-size:.95rem;
+}
+
+.menu a{
+    color:var(--muted);
+    transition:.2s;
+}
+
+.menu a:hover{
+    color:var(--text);
+}
+
+header{
+    width:90%;
+    max-width:760px;
+    margin:auto;
+
+    padding-top:150px;
+    padding-bottom:90px;
+}
+
+h1{
+    font-size:3.5rem;
+    line-height:.95;
+    letter-spacing:-3px;
+    margin-bottom:24px;
+}
+
+.subtitle{
+    font-size:1.2rem;
+    font-weight:600;
+    margin-bottom:16px;
+}
+
+.description{
+    color:var(--muted);
+    max-width:650px;
+    font-size:1.05rem;
+}
+
+main{
+    width:90%;
+    max-width:760px;
+    margin:auto;
+
+    padding-bottom:120px;
+}
+
+.article{
+    display:block;
+    padding:55px 0;
+    border-top:1px solid var(--border);
+    transition:.2s;
+}
+
+.article:hover{
+    transform:translateX(4px);
+}
+
+.article h2{
+    font-size:1.8rem;
+    line-height:1.15;
+    letter-spacing:-1px;
+    margin-bottom:14px;
+}
+
+.article p{
+    color:var(--muted);
+    font-size:1.05rem;
+    margin-bottom:18px;
+}
+
+.meta{
+    color:var(--muted);
+    font-size:.9rem;
+}
+
+footer{
+    border-top:1px solid var(--border);
+    padding:50px;
+    text-align:center;
+    color:var(--muted);
+}
+
+@media(max-width:768px){
+
+    h1{
+        font-size:3rem;
+        letter-spacing:-2px;
+    }
+
+    .article h2{
+        font-size:1.4rem;
+    }
+
+    .menu{
+        gap:16px;
+        font-size:.85rem;
+    }
+
+}
+
+</style>
+
+</head>
+
+<body>
+
+<nav>
+
+<div class="nav">
+
+<div class="logo">
+WRITING
+</div>
+
+<div class="menu">
+<a href="#">Articles</a>
+<a href="https://fragments.fcobos.com">Fragments</a>
+<a href="https://commonsense.fcobos.com">Common Sense</a>
+<a href="https://fcobos.com">fcobos.com</a>
+</div>
+
+</div>
+
+</nav>
+
+<header>
+
+<h1>WRITING</h1>
+
+<div class="subtitle">
+Thoughts on technology, leadership and investing.
+</div>
+
+<p class="description">
+Long-form reflections, lessons learned and practical observations gathered over the years.
+</p>
+
+</header>
+
+<main>
+
+<a class="article" href="generated/leadership-begins-where-authority-ends.html">
+
+<h2>
+Leadership Begins Where Authority Ends
+</h2>
+
+<p>
+Real leadership starts when people choose to follow, not when they are required to.
+</p>
+
+<div class="meta">
+May 2025 · 2 min read
+</div>
+
+</a>
+
+<a class="article" href="generated/the-problem-with-lets-be-pragmatic.html">
+
+<h2>
+The Problem with "Let's Be Pragmatic"
+</h2>
+
+<p>
+Real pragmatism questions assumptions. It doesn't protect them.
+</p>
+
+<div class="meta">
+September 2017 · 2 min read
+</div>
+
+</a>
+
+</main>
+
+<footer>
+
+WRITING · Francisco Cobos
+
+<br><br>
+
+<a href="legal.html">Legal</a>
+
+</footer>
+
+</body>
+</html>
