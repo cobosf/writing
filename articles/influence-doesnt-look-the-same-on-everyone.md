@@ -1,7 +1,8 @@
 ---
-title: Test
-description: Test
+title: Influence Doesn't Look the Same on Everyone
+description: Influence comes in many forms. Some people connect, some teach and some persuade. Organizations need all three.
 date: 2017-10-21
+image: influence-doesnt-look-the-same-on-everyone.webp
 ---
 
 When we think about influential people inside organizations, we often imagine charismatic leaders standing in front of a room, inspiring everyone around them.
